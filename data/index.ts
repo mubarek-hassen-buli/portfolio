@@ -75,7 +75,7 @@ export const projects = [
     title: "Hospital management System",
     des: "Navigate the heartbeat of your hospital with clarity, control, and care.",
     img: "/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://medi-lab-hospital.vercel.app/",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "PersonaDash - Your Personal Dashboard",
     des: " Built Around You — Secure Access, Smart Tools, Seamless Experience.",
     img: "/p2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "/ui.yoom.com",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Biography of the 4 khalifa",
     des: "explore The Lives That Shaped Islam — The Four Rightly Guided Caliphs.",
     img: "/p4.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://khalifasofislam.vercel.app/",
   },
 ];
