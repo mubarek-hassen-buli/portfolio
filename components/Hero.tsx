@@ -43,22 +43,6 @@ const Hero = () => {
         //hero image
       }
 
-      <motion.div
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
-        viewport={{ once: true }}
-        className="flex justify-center items-center"
-      >
-        <Image
-          src="/hero-img.png"
-          alt=""
-          className="rounded-full w-40 h-40"
-          width={50}
-          height={50}
-        />
-      </motion.div>
-
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
