@@ -100,7 +100,7 @@ export const projects = [
     des: "explore The Lives That Shaped Islam — The Four Rightly Guided Caliphs.",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://khalifasofislam.vercel.app/",
   },
 ];
 
