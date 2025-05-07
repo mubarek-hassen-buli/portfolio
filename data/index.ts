@@ -96,9 +96,9 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Biography of the 4 khalifa",
+    des: "explore The Lives That Shaped Islam — The Four Rightly Guided Caliphs.",
+    img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -130,7 +130,7 @@ export const testimonials = [
     quote:
       "Working with Mubarek was nothing short of a delight. From start to finish, his professionalism set the tone—he was consistently punctual, communicative, and fully committed to bringing our vision to life. What impressed me most was his ability to blend efficiency with excellence; he met every deadline without ever compromising on quality.",
     name: "Awol Ibrahim",
-    image: "/hamza.jpg",
+    image: "/awol.jpg",
     // title: "Director of AlphaStream Technologies",
   },
   {
