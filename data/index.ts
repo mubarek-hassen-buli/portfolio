@@ -109,30 +109,35 @@ export const testimonials = [
     quote:
       "Collaborating with Mubarek was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. mubarek's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, mubarek is the ideal partner.",
     name: "Hamza Safi",
+    image: "/hamza.jpg",
     // title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "If you’re looking to take your website and brand to new heights, Mubarek is hands-down the perfect partner. His talent, drive, and professionalism turned our project into something extraordinary, and I’d recommend him to anyone without hesitation.",
     name: "Hayatudin Jemal",
+    image: "/hamza.jpg",
     // title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "Mubarek’s dedication to delivering outstanding results shone through in every aspect of our project. When we hit a snag with a tricky interactive feature, he didn’t just fix it—he reimagined it, turning a potential headache into a highlight of the website that left us in awe. His meticulous attention to detail was evident in the polished design, lightning-fast load times, and flawless functionality across devices.",
     name: "Mubarek Amakel",
+    image: "/hamza.jpg",
     // title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "Working with Mubarek was nothing short of a delight. From start to finish, his professionalism set the tone—he was consistently punctual, communicative, and fully committed to bringing our vision to life. What impressed me most was his ability to blend efficiency with excellence; he met every deadline without ever compromising on quality.",
     name: "Awol Ibrahim",
+    image: "/hamza.jpg",
     // title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "But beyond his technical skill, it’s Mubarek’s passion for development that truly sets him apart. He tackled each challenge—whether crafting a sleek user interface, optimizing code, or integrating complex tools—with an enthusiasm that was downright inspiring. It made the collaboration not just productive, but genuinely enjoyable.",
     name: "Firagos Jemal",
+    image: "/hamza.jpg",
     // title: "Director of AlphaStream Technologies",
   },
 ];
