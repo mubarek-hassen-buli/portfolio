@@ -40,6 +40,7 @@ export const BackgroundGradientAnimation = ({
   const [tgX, setTgX] = useState(0);
   const [tgY, setTgY] = useState(0);
   useEffect(() => {
+    // Only run on the client side
     if (typeof document !== "undefined") {
       document.body.style.setProperty(
         "--gradient-background-start",
@@ -61,6 +62,9 @@ export const BackgroundGradientAnimation = ({
   }, []);
 
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === "undefined") return;
+
     function move() {
       if (!interactiveRef.current) {
         return;
@@ -73,7 +77,7 @@ export const BackgroundGradientAnimation = ({
     }
 
     move();
-  }, [tgX, tgY]);
+  }, [tgX, tgY, curX, curY]);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     if (interactiveRef.current) {
@@ -85,7 +89,10 @@ export const BackgroundGradientAnimation = ({
 
   const [isSafari, setIsSafari] = useState(false);
   useEffect(() => {
-    setIsSafari(/^((?!chrome|android).)*safari/i.test(navigator.userAgent));
+    // Only run browser detection on the client side
+    if (typeof window !== "undefined" && typeof navigator !== "undefined") {
+      setIsSafari(/^((?!chrome|android).)*safari/i.test(navigator.userAgent));
+    }
   }, []);
 
   return (
